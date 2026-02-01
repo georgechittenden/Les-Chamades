@@ -215,7 +215,7 @@ Apple Pages is a word processor (like Microsoft Word), but you can still use it:
 ### Tips for Apple Users
 
 - **Save time:** Keep your CSV export location consistent for quick re-exports
-- **Automation:** You can create a Mac Shortcut to automate the export-and-upload process
+- **Automation:** You can create an Apple Shortcuts automation to automate the export-and-upload process
 - **iCloud:** Both Numbers and Google Sheets work on iCloud, so you can edit from iPhone/iPad
 - **Template:** Save your Apple Numbers document as a template for consistent formatting
 
@@ -224,7 +224,7 @@ Apple Pages is a word processor (like Microsoft Word), but you can still use it:
 If you want automatic syncing from Apple Numbers to Google Sheets:
 
 1. **Zapier/Make.com:** Set up automation workflows
-2. **Apple Shortcuts:** Create a shortcut that exports and uploads via Google Drive
+2. **Apple Shortcuts app:** Create an automation that exports and uploads via Google Drive
 3. **Script Bridge:** Use AppleScript + Google Sheets API for direct updates
 
 These options require technical setup but eliminate manual CSV imports.

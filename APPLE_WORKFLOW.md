@@ -58,7 +58,7 @@ The Les Chamades website pulls data from Google Sheets, but you can maintain you
 
 - **Save your CSV location**: Always export to the same file for consistency
 - **Use templates**: Save your Numbers file as a template
-- **Keyboard shortcut**: ⌘E to open export dialog quickly
+- **Export shortcut**: Use Shift+⌘E to open the export dialog quickly
 - **iCloud sync**: Keep your Numbers file in iCloud for access on all devices
 
 ## Alternative: Apple Pages
@@ -118,9 +118,9 @@ The Les Chamades website pulls data from Google Sheets, but you can maintain you
 
 For power users who want automatic syncing:
 
-#### Option 1: Mac Shortcuts
+#### Option 1: Apple Shortcuts App
 
-Create a Mac Shortcut that:
+Create an automation using the Apple Shortcuts app that:
 1. Exports your Numbers file as CSV
 2. Uploads to Google Drive
 3. Triggers a Google Sheets import
@@ -141,7 +141,7 @@ Write a script that:
 #### Option 4: Custom Sync Tool
 
 Build a small app using:
-- Apple's Shortcuts or Automator
+- Apple Shortcuts app or Automator
 - Google Sheets API
 - Python script for batch operations
 
@@ -208,7 +208,7 @@ Yes, with scripting knowledge. The simplest automatic sync:
 1. Keep master in Google Sheets
 2. Export to Numbers for offline reading/analysis when needed
 
-For Apple → Google sync, you'll need custom automation (Shortcuts, Zapier, or scripts).
+For Apple → Google sync, you'll need custom automation (Apple Shortcuts app, Zapier, or scripts).
 
 ## Troubleshooting
 

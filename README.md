@@ -105,11 +105,13 @@ The website needs to pull data from Google Sheets for display, but you can maint
 While Apple Pages is primarily a word processor, you can maintain a formatted document:
 
 1. **Create a table in Apple Pages** with your job listings
-2. **Export and convert:**
+2. **Copy to Google Sheets (Recommended):**
+   - Select and copy the table directly from Pages
+   - Paste into Google Sheets starting at cell A1
+3. **Alternative method:** If direct copy doesn't work:
    - Export the Pages document to Word format (.docx)
    - Open in Google Docs
    - Copy the table into Google Sheets
-3. **Alternatively:** Copy the table directly from Pages and paste into Google Sheets
 
 #### Option C: Two-Way Sync (Advanced)
 

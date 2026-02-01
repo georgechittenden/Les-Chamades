@@ -188,19 +188,19 @@ Apple Pages is a word processor (like Microsoft Word), but you can still use it:
 
 2. **Export and transfer to Google Sheets:**
    
-   **Method 1: Via CSV**
+   **Method 1: Direct copy (Recommended)**
    - Select your table in Pages
-   - Copy the table (Cmd+C)
+   - Copy the table (⌘C)
+   - Go to Google Sheets
+   - Paste (⌘V) into cell A1
+   - The table will be imported as spreadsheet data
+   
+   **Method 2: Via Numbers and CSV**
+   - Select your table in Pages
+   - Copy the table (⌘C)
    - Open Apple Numbers
    - Paste into a new spreadsheet
    - Follow the "Using Apple Numbers" steps above
-   
-   **Method 2: Direct copy**
-   - Select your table in Pages
-   - Copy the table (Cmd+C)
-   - Go to Google Sheets
-   - Paste (Cmd+V) into cell A1
-   - The table will be imported as spreadsheet data
 
 3. **Follow the setup steps** as described above
 

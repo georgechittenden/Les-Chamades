@@ -1,0 +1,21 @@
+# Configuration file with API keys (users should use config.example.js as template)
+config.js
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+tmp/
+temp/

@@ -2,6 +2,8 @@
 
 International Church Music Job Listings
 
+**🌐 Live Site**: [https://georgechittenden.github.io/Les-Chamades/](https://georgechittenden.github.io/Les-Chamades/)
+
 ## Overview
 
 Les Chamades is a minimalist, stylish website for displaying international church music job listings. The design is inspired by the Yale Institute of Sacred Music, featuring clean typography and card-based layouts.
@@ -76,8 +78,20 @@ const SHEET_CONFIG = {
 
 ### 3. Deploy
 
-You can deploy this website to:
-- **GitHub Pages**: Enable in repository settings
+This website is automatically deployed to GitHub Pages:
+
+**Live Site**: https://georgechittenden.github.io/Les-Chamades/
+
+#### Automatic Deployment
+
+The site is configured with GitHub Actions for automatic deployment:
+- Every push to the `main` branch triggers a deployment
+- The workflow file is located at `.github/workflows/deploy.yml`
+- No manual steps required - just push your changes!
+
+#### Alternative Deployment Options
+
+You can also deploy to:
 - **Netlify**: Connect your repository
 - **Vercel**: Import your repository
 - Any static web hosting service

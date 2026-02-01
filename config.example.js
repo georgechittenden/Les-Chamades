@@ -1,5 +1,6 @@
 // Configuration for Google Sheets integration
 // Copy this file to config.js and fill in your values
+// IMPORTANT: config.js is ignored by git to protect your API key
 
 const SHEET_CONFIG = {
     // Your Google Sheets spreadsheet ID

@@ -226,7 +226,7 @@ For Apple → Google sync, you'll need custom automation (Apple Shortcuts app, Z
 **Problem**: Updated Google Sheets but website shows old data
 
 **Solutions**:
-- Hard refresh browser (Cmd+Shift+R)
+- Hard refresh browser (⌘⇧R)
 - Clear browser cache
 - Verify Google Sheet is still public
 - Check API key is still valid

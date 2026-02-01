@@ -27,7 +27,7 @@ Simply open `index.html` in a web browser to see sample job listings.
 
 To connect your own job listings spreadsheet:
 
-**Note:** While the website pulls data from Google Sheets, you can maintain your master document in **Apple Pages** or **Apple Numbers** (see [Apple Workflow](#apple-pages--numbers-workflow) below for details).
+**Note:** While the website pulls data from Google Sheets, you can maintain your master document in **Apple Pages** or **Apple Numbers** (see [Apple Pages / Numbers Workflow](#3-apple-pages--numbers-workflow) below for details).
 
 #### Create a Google Sheets Spreadsheet
 
@@ -81,6 +81,8 @@ const SHEET_CONFIG = {
 **Yes, you can use Apple Pages or Apple Numbers as your master document!**
 
 The website needs to pull data from Google Sheets for display, but you can maintain your master job listings in Apple's ecosystem and sync to Google Sheets.
+
+**For detailed instructions, see [APPLE_WORKFLOW.md](APPLE_WORKFLOW.md).**
 
 #### Option A: Using Apple Numbers (Recommended)
 

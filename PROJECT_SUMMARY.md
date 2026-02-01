@@ -37,6 +37,7 @@ Each job card shows:
 ### Backend
 - Google Sheets as database
 - Simple spreadsheet format (5 columns: Title, Institution, City, Country, Website)
+- **Master document can be maintained in Apple Pages, Apple Numbers, Excel, or any spreadsheet app** - just export/sync to Google Sheets
 - Manual updates by editing the spreadsheet
 - No server-side code required
 
@@ -59,18 +60,21 @@ Les-Chamades/
 ├── README.md                   # Main documentation
 ├── SETUP.md                    # Step-by-step setup guide
 ├── SPREADSHEET_TEMPLATE.md     # Spreadsheet structure guide
+├── APPLE_WORKFLOW.md           # Apple Pages/Numbers integration guide
 └── PROJECT_SUMMARY.md          # This file
 ```
 
 ## Usage Workflow
 
 1. **Initial Setup** (5-10 minutes)
-   - Create Google Sheets spreadsheet
+   - Create Google Sheets spreadsheet (or maintain master in Apple Numbers/Pages)
    - Get Google Sheets API key
    - Configure config.js
 
 2. **Adding Jobs** (ongoing)
-   - Add new row to spreadsheet
+   - **Option A (Direct)**: Add new row to Google Sheets
+   - **Option B (Apple Numbers)**: Edit Numbers, export CSV, import to Google Sheets
+   - **Option C (Apple Pages)**: Update Pages table, copy to Google Sheets
    - Fill in: Title, Institution, City, Country, Website
    - Save (auto-saves)
 

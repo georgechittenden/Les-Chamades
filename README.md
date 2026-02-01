@@ -27,6 +27,8 @@ Simply open `index.html` in a web browser to see sample job listings.
 
 To connect your own job listings spreadsheet:
 
+**Note:** While the website pulls data from Google Sheets, you can maintain your master document in **Apple Pages** or **Apple Numbers** (see [Apple Workflow](#apple-pages--numbers-workflow) below for details).
+
 #### Create a Google Sheets Spreadsheet
 
 1. Create a new Google Sheets spreadsheet
@@ -74,7 +76,47 @@ const SHEET_CONFIG = {
 2. Change access to "Anyone with the link can view"
 3. Save
 
-### 3. Deploy
+### 3. Apple Pages / Numbers Workflow
+
+**Yes, you can use Apple Pages or Apple Numbers as your master document!**
+
+The website needs to pull data from Google Sheets for display, but you can maintain your master job listings in Apple's ecosystem and sync to Google Sheets.
+
+#### Option A: Using Apple Numbers (Recommended)
+
+1. **Create your master spreadsheet in Apple Numbers** with the same columns: Title, Institution, City, Country, Website
+2. **Export to Google Sheets:**
+   - File → Export To → CSV
+   - Go to Google Sheets and create a new spreadsheet
+   - File → Import → Upload tab → Choose your CSV file
+   - Import location: Replace current sheet
+   - Click "Import data"
+3. **Set up the website** using the Google Sheets instructions above
+4. **Update workflow:** When you update your Numbers document:
+   - Export as CSV
+   - In Google Sheets: File → Import → Upload the new CSV
+   - Choose "Replace current sheet"
+   - Your website will automatically show the updates on refresh
+
+#### Option B: Using Apple Pages
+
+While Apple Pages is primarily a word processor, you can maintain a formatted document:
+
+1. **Create a table in Apple Pages** with your job listings
+2. **Export and convert:**
+   - Export the Pages document to Word format (.docx)
+   - Open in Google Docs
+   - Copy the table into Google Sheets
+3. **Alternatively:** Copy the table directly from Pages and paste into Google Sheets
+
+#### Option C: Two-Way Sync (Advanced)
+
+For automatic syncing, consider:
+- Using Apple Numbers with iCloud
+- Setting up a workflow using automation tools (Zapier, Make.com) to sync Numbers to Google Sheets
+- Using Google Sheets on Mac/iOS while maintaining your source in Numbers
+
+### 4. Deploy
 
 You can deploy this website to:
 - **GitHub Pages**: Enable in repository settings

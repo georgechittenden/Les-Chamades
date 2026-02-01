@@ -1,5 +1,15 @@
 # Google Sheets Template for Les Chamades
 
+## Can I Use Apple Pages or Apple Numbers?
+
+**Yes!** While this file describes the Google Sheets format, you can maintain your master document in:
+- **Apple Numbers**: Export as CSV and import to Google Sheets
+- **Apple Pages**: Create a table, copy to Google Sheets
+- **Microsoft Excel**: Export as CSV and import to Google Sheets
+- **Any spreadsheet software**: As long as you sync to Google Sheets
+
+See [SETUP.md](SETUP.md#apple-pagesnumbers-workflow) for detailed Apple workflow instructions.
+
 ## Spreadsheet Structure
 
 Create a Google Sheets spreadsheet with the following columns:
@@ -42,9 +52,32 @@ Create a Google Sheets spreadsheet with the following columns:
 
 You can either:
 
-1. **Create from scratch**: Follow the structure above
+1. **Create from scratch in Google Sheets**: Follow the structure above
 2. **Copy template**: Make a copy of this [sample spreadsheet](#) (link to be added)
 3. **Import CSV**: Create a CSV file with this structure and import it to Google Sheets
+4. **Use Apple Numbers**: Create in Numbers, export as CSV, import to Google Sheets (see [SETUP.md](SETUP.md#apple-pagesnumbers-workflow))
+5. **Use Apple Pages**: Create a table in Pages, copy and paste into Google Sheets
+
+### For Apple Numbers Users
+
+Apple Numbers format:
+```
+Row 1: Title | Institution | City | Country | Website
+Row 2+: Your job listings
+```
+
+Export steps:
+1. File → Export To → CSV
+2. Import the CSV to Google Sheets
+3. Complete the setup as described in [SETUP.md](SETUP.md)
+
+### For Apple Pages Users
+
+1. Create a table with 5 columns
+2. Add headers: Title | Institution | City | Country | Website  
+3. Add your job listings
+4. Copy the entire table
+5. Paste into Google Sheets starting at cell A1
 
 ## Sharing Settings
 

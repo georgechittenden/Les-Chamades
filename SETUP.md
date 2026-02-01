@@ -2,6 +2,8 @@
 
 ## Quick Start (5 minutes)
 
+**Note:** The website uses Google Sheets for live data, but you can maintain your master document in **Apple Pages** or **Apple Numbers**. See [Apple Workflow section](#apple-pagesnumbers-workflow) below.
+
 ### Step 1: Create Your Spreadsheet
 
 1. Go to [Google Sheets](https://sheets.google.com)
@@ -137,3 +139,92 @@ Your API key will be visible in the source code. To keep it more secure:
 3. Consider adding HTTP referrer restrictions to only allow your domain
 
 For maximum security, consider building a backend API that handles the Google Sheets requests server-side.
+
+## Apple Pages/Numbers Workflow
+
+### Can I use Apple Pages or Numbers instead of Google Sheets?
+
+**Yes!** You can maintain your master job listings in Apple Pages or Apple Numbers. The website will still pull from Google Sheets, but you can work in your preferred Apple application and sync your changes.
+
+### Using Apple Numbers (Easiest)
+
+1. **Create your spreadsheet in Apple Numbers:**
+   - Open Apple Numbers
+   - Create a new spreadsheet
+   - Set up columns: Title | Institution | City | Country | Website
+   - Add your job listings
+
+2. **Initial setup - Export to Google Sheets:**
+   - File → Export To → CSV
+   - Save the CSV file
+   - Go to [Google Sheets](https://sheets.google.com)
+   - Create a new spreadsheet
+   - File → Import → Upload tab
+   - Select your CSV file
+   - Choose "Replace current sheet"
+   - Click "Import data"
+
+3. **Make the Google Sheet public** (follow Step 2 above)
+
+4. **Set up your website** (follow Steps 3-7 above)
+
+5. **Updating your listings:**
+   - Edit your Apple Numbers document
+   - File → Export To → CSV (save to the same location)
+   - In Google Sheets: File → Import → Upload
+   - Select your updated CSV file
+   - Choose "Replace current sheet"
+   - Click "Import data"
+   - Refresh your website to see changes
+
+### Using Apple Pages
+
+Apple Pages is a word processor (like Microsoft Word), but you can still use it:
+
+1. **Create a table in Pages:**
+   - Insert → Table
+   - Set up 5 columns: Title | Institution | City | Country | Website
+   - Add your job listings to the table
+
+2. **Export and transfer to Google Sheets:**
+   
+   **Method 1: Direct copy (Recommended)**
+   - Select your table in Pages
+   - Copy the table (⌘C)
+   - Go to Google Sheets
+   - Paste (⌘V) into cell A1
+   - The table will be imported as spreadsheet data
+   
+   **Method 2: Via Numbers and CSV**
+   - Select your table in Pages
+   - Copy the table (⌘C)
+   - Open Apple Numbers
+   - Paste into a new spreadsheet
+   - Follow the "Using Apple Numbers" steps above
+
+3. **Follow the setup steps** as described above
+
+### Workflow Comparison
+
+| Method | Ease of Use | Best For |
+|--------|-------------|----------|
+| **Google Sheets only** | ⭐⭐⭐⭐⭐ | Simplest, no sync needed |
+| **Apple Numbers + export** | ⭐⭐⭐⭐ | Mac users who prefer Numbers |
+| **Apple Pages + copy** | ⭐⭐⭐ | Users already maintaining a Pages document |
+
+### Tips for Apple Users
+
+- **Save time:** Keep your CSV export location consistent for quick re-exports
+- **Automation:** You can create an Apple Shortcuts automation to automate the export-and-upload process
+- **iCloud:** Both Numbers and Google Sheets work on iCloud, so you can edit from iPhone/iPad
+- **Template:** Save your Apple Numbers document as a template for consistent formatting
+
+### Automatic Sync Options (Advanced)
+
+If you want automatic syncing from Apple Numbers to Google Sheets:
+
+1. **Zapier/Make.com:** Set up automation workflows
+2. **Apple Shortcuts app:** Create an automation that exports and uploads via Google Drive
+3. **Script Bridge:** Use AppleScript + Google Sheets API for direct updates
+
+These options require technical setup but eliminate manual CSV imports.

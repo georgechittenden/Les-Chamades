@@ -94,6 +94,31 @@ Les-Chamades/
 └── README.md          # This file
 ```
 
+## Fonts & Typography
+
+This project uses two elegant Google Fonts to create a sophisticated, readable design:
+
+### Cormorant Garamond (Serif)
+- **Usage**: All headings (h1, h2, h3)
+- **Weights**: 300 (Light), 400 (Regular), 500 (Medium), 600 (Semi-bold)
+- **Purpose**: Provides an elegant, classical feel appropriate for church music positions
+- **Applied to**: Site title, job titles, and other headings
+
+### Lato (Sans-serif)
+- **Usage**: Body text and general content
+- **Weights**: 300 (Light), 400 (Regular), 700 (Bold)
+- **Purpose**: Ensures excellent readability for descriptions and supporting text
+- **Applied to**: All body text, subtitles, locations, and links
+
+### Font Loading
+Fonts are loaded via Google Fonts CDN in `index.html`:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+```
+
+### License
+Both fonts are open source and available under the SIL Open Font License.
+
 ## Customization
 
 ### Design Changes
